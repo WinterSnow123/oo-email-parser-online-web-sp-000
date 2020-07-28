@@ -8,6 +8,7 @@ class EmailAddressParser
   attr_accessor :email_addresses
 
   def initialize(emails)
+    binding.pry
     @email_addresses = emails.split(' , ')
   end
 
